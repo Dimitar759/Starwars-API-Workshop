@@ -7,7 +7,7 @@ let nextButton = document.getElementById("next");
 let prevButton = document.getElementById("previous");
 
 let createTablePeople = () => {
-    result.innerHTML = "";
+    
   let table = document.createElement("table");
   table.style.border = "1px solid black";
   table.style.margin = "auto"; 
@@ -36,7 +36,7 @@ let createTablePeople = () => {
     }
   }
   
-
+  result.innerHTML = "";
   result.appendChild(table);
   result.style.textAlign = "center";
 
@@ -48,7 +48,6 @@ let createTablePeople = () => {
 };
 
 let createShipsTable = () => {
-    result.innerHTML = "";
   let table = document.createElement("table");
   table.style.border = "1px solid black";
   table.style.margin = "auto"; 
@@ -78,6 +77,7 @@ let createShipsTable = () => {
     }
   }
   
+  result.innerHTML = "";
   result.appendChild(table);
   result.style.textAlign = "center";
 
