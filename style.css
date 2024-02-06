@@ -32,7 +32,7 @@
 }
 
 .btn {
-    display: none;
+    visibility: hidden;
 }
 
 #buttons{
